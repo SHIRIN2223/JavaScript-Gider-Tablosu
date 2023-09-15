@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(60, 60, 60);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inconsolata";
+    flex-direction: column;
+    gap: 50px;
+}
+
+main {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+.heading{
+    color: aqua;
+    text-shadow: 2px 2px 10px aqua;
+    letter-spacing: 2px;
+}
+
+/* tasiyici */
+
+.container{
+    background-color: white;
+    min-width: 60vw;
+    min-height: 80vh;
+    height: 70vh;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.greet {
+    font-size: 25px;
+}
+.greet input {
+    border: none;
+    outline: none;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+form{
+    font: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.double{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0 30px;
+}
+
+.form-check-field{
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid gray;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+button:hover{
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    transform: scale(0.9);
+    transition: .4s;
+}
+
+.sum{
+    background-color: rgb(0, 0, 70);
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#sum-info{
+    color: yellow;
+}
+
+select{
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* harcma list*/
+#list{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+    overflow: auto;
+    pad: 10px;
+    height: 100%;
+}
+
+
+/* harcama  listesi */
+.paid{
+    opacity: .7;
+}
+
+.paid .name{
+    text-decoration: line-through;
+}
+
+.paid .price{
+    color: green;
+}
+
+.expense{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+     rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+     rgba(255, 255, 255, 0.05)  0px 0px 0px 1px inset;
+}
+
+.expense .price{
+    color: red;
+
+}
+
+.expence .btns img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
